@@ -26,7 +26,6 @@ FILTER_WORDS = set([
     "nigga",
     "daygo",
     "dego",
-    "dago",
     "gook",
     "kike",
     "kraut",
