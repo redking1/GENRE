@@ -20,4 +20,3 @@ If you are on windows you may need to install python from
 
 https://www.python.org/downloads/windows/
 
-the latest versions of python come with pip preinstalled 
