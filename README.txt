@@ -7,14 +7,15 @@ The Python script works by first parsing an input set of tuples retrieved from t
 
 Instructions to install the bot
 
-1. Clone the Githab repository
+1. Clone the Github repository
 2. Install the dependencies with the command
+3. Ensure you have the database- movies.db
 
 pip install requirements.txt -r
 
 3. run the bot!
 
-python chatbot.py
+python3 chatbot.py
 
 If you are on windows you may need to install python from 
 
