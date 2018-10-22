@@ -15,7 +15,7 @@ pip install requirements.txt -r
 
 3. run the bot!
 
-python3 chatbot.py
+python chatbot.py
 
 If you are on windows you may need to install python from 
 
