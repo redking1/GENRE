@@ -159,7 +159,8 @@ def genre_movies(genre):
     film=film+'%'
     cursor.execute("SELECT movieId, title FROM movies WHERE title  LIKE ?",(film,))
    
-   # Function takes the returned tuple of movie ids and title and uses the package pick to let the user pick which one they meant
+   # Function takes the returned tuple of movie ids and title and uses the package pick to let the user 
+   #pick which one they meant
     results = cursor.fetchall()
     if not results:
         return None
@@ -193,7 +194,8 @@ def get_director(filmid):
     for director in movie['directors']:
         print bcolors.OKGREEN+('Ah! i love ' + director['name'])+bcolors.ENDC
 
-# Short function to get an actor from 2nd film, need to work in a brief pause using the spinning cursor function  so user can see it before menu comes up
+# Short function to get an actor from 2nd film, need to work in a brief pause using the spinning cursor function
+#so user can see it before menu comes up
 
 def get_actor(filmid2):
 
